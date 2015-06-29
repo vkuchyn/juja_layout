@@ -52,7 +52,34 @@ body {
 .program_column_right {
 	display: inline-table;
 	margin-right: 5%;
-	width: 42%
+	width: 42%;
 }
 
 /*Footer block*/
+
+.footer {
+	margin-top: 20px;
+}
+
+.footer_logo {
+	width:100px;
+}
+
+.footer_logo_left {
+	display: inline-block;
+	margin-left: 50px;
+    margin-right: auto;
+    height: auto;
+}
+
+.footer_watermark_right {
+	display: inline-block;
+	margin-right: 5%;
+	float: right;
+}
+
+.footer_watermark_right p{
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 1px;
+}
