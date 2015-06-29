@@ -1,6 +1,7 @@
 .header {
 	background-color: #7ed310;
 	color: #fbfcf9;
+	text-align: center;
 }
 
 .header_logo {
@@ -12,12 +13,10 @@
 }
 
 .header_title {
-	text-align: center;
 	margin-bottom: 5px;
 }
 
 .header_subtitle {
-	text-align: center;
 	margin-top: 5px;
 	padding-bottom: 25px;
 
