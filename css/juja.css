@@ -1,3 +1,7 @@
+body {
+	background-color: #ececeb;
+}
+
 .header {
 	background-color: #7ed310;
 	color: #fbfcf9;
@@ -8,7 +12,7 @@
 	display: block;
 	margin-left: auto;
     margin-right: auto;
-    width:10%;
+    width:100px;
     height: auto;
 }
 
@@ -19,5 +23,31 @@
 .header_subtitle {
 	margin-top: 5px;
 	padding-bottom: 25px;
+}
 
+.program {
+	background-color: #fffdfd;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 50px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #777676
+}
+
+.program_title {
+	text-align: center;
+}
+
+.program_column_left {
+	display: inline-table;
+	margin-left: 5%;
+	width: 42.5%;
+	margin-right: 5%;
+}
+
+.program_column_right {
+	display: inline-table;
+	margin-right: 5%;
+	width: 42%
 }
