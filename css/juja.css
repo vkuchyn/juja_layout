@@ -2,6 +2,8 @@ body {
 	background-color: #ececeb;
 }
 
+/*Header block*/
+
 .header {
 	background-color: #7ed310;
 	color: #fbfcf9;
@@ -25,6 +27,7 @@ body {
 	padding-bottom: 25px;
 }
 
+/*Middle block*/
 .program {
 	background-color: #fffdfd;
 	margin-left: 50px;
@@ -51,3 +54,5 @@ body {
 	margin-right: 5%;
 	width: 42%
 }
+
+/*Footer block*/
