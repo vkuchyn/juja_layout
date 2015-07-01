@@ -36,9 +36,9 @@ body {
 /*Middle block*/
 .program {
 	background-color: #fffdfd;
-	margin-left: 50px;
-	margin-right: 50px;
-	margin-top: 50px;
+	margin-left: 86px;
+	margin-right: 86px;
+	margin-top: 58px;
 	border-style: solid;
 	border-width: 1px;
 	border-color: #777676
@@ -74,11 +74,12 @@ body {
 /*Footer block*/
 
 .footer {
-	margin-top: 20px;
+	margin-top: 26px;
 }
 
 .footer__logo {
 	width:100px;
+	margin-left: 96px;
 }
 
 .footer__logo--left {
@@ -91,12 +92,19 @@ body {
 
 .footer__watermark {
 	display: inline-block;
-	margin-right: 5%;
+	margin-right: 80px;
 	float: right;
+	padding-top: 36px;
 }
 
 .footer__watermark p{
 	text-align: center;
+	font-style: Arial;
+	font-size: 15px;
 	margin-top: 5px;
 	margin-bottom: 1px;
+}
+
+.footer__watermark a{
+	color: #79d206;
 }
