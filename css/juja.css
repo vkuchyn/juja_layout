@@ -42,16 +42,24 @@ body {
 	border-style: solid;
 	border-width: 1px;
 	border-color: #777676
+	font-family: Arial;	
 }
 
 .program__title {
 	text-align: center;
+	color: #79d206;
+	font-size: 28px;
 }
 
 .program__column {
 	display: inline-table;
 	box-sizing: border-box;
 	margin-right: 5%;
+}
+
+.program__column-title {
+	color: #79d206;
+	font-size: 19px;
 }
 
 .program__column--left {
