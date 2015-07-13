@@ -8,18 +8,20 @@ body {
 	background-color: #7ed310;
 	color: #fbfcf9;
 	text-align: center;
+	padding-top: 163px;
+	padding-bottom: 170px;
 }
 
-.header__logo {
+/*.header__logo {
 	display: block;
 	margin-left: auto;
     margin-right: auto;
     padding-top: 20px;
-}
+}*/
 
 .header__title {
-	margin-top: 47px;
-	margin-bottom: 11px;
+	margin-top: 0;
+	margin-bottom: 0;
 	font-family: "Arial Black", sans-serif;
 	font-size: 97px;
 	line-height: 1;
@@ -27,10 +29,48 @@ body {
 
 .header__subtitle {
 	font-family: Arial, sans-serif;
-	margin-top: 0px;
-	margin-bottom: 46px;
-	padding-bottom: 25px;
+	margin-top: 0;
+	margin-bottom: 0;
 	font-size: 35px;
+	font-weight: 400;
+}
+
+/*Course short dexc with video and buy button*/
+.course-description{
+
+}
+
+.course-description__logo-row{
+	text-align: right;
+	margin-right: 40px;
+}
+
+.course-description-buy{
+	float: left;
+	box-sizing: border-box;
+	/*margin-right: 5%;*/
+	padding: 0 25px;
+}
+
+.course-description-buy iframe{
+	height: 400px;
+	width: 100%;
+}
+
+.buy-button {
+	border-style: solid;
+	border-width: 5px;
+	border-color: #79d206;
+	color: #79d206;
+	padding: 20px 80px;
+}
+
+.course-descriptionbuy__left{
+	width: 60%;
+}
+
+.course-descriptionbuy__right{
+	width: 40%;
 }
 
 /*Middle block*/
@@ -84,6 +124,7 @@ body {
 
 .footer {
 	margin-top: 26px;
+	height: 111px;
 }
 
 .footer__logo {
@@ -95,7 +136,6 @@ body {
 	display: inline-block;
 	margin-left: 50px;
     margin-right: auto;
-    height: auto;
     float: left;
 }
 
